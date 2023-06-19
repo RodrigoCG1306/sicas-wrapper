@@ -1,0 +1,13 @@
+{
+    "name": "rodrigo/sicas-wrapper",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "authors": [
+        {
+            "name": "Rodrigo",
+            "email": "cazares.jose.gm@gmail.com"
+        }
+    ],
+    "require": {}
+}

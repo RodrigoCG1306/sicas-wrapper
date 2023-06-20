@@ -9,5 +9,19 @@
             "email": "cazares.jose.gm@gmail.com"
         }
     ],
-    "require": {}
+
+    "autoload": {
+        "psr-4": {
+            "Sicas\\" : "src/",
+            "Sicas\\Tests\\" : "tests/"
+        }
+    },
+
+    "require": {
+        "php": "^8.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "10"
+    }
 }

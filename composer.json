@@ -18,6 +18,7 @@
     },
 
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "laminas/laminas-soap": "^2.12"
     }
 }

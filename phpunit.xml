@@ -8,7 +8,7 @@
     </testsuite>
   </testsuites>
   <php>
-    <env name="user" value="T3j0D3L6AD1ll0" force="true"/>
-    <env name="password" value="T3#J0%Del6A" force="true"/>
+    <env name="user" value="" force="true"/>
+    <env name="password" value="" force="true"/>
   </php>
 </phpunit>

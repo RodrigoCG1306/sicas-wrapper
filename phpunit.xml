@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit colors="true"
-    bootstrap="vendor/autoload.php"
-    forceCoversAnnotation="true"
-    beStrictAboutCoversAnnotation="true"
-    beStrictAboutOutputDuringTests="true"
-    beStrictAboutTodoAnnotatedTests="true"
-    verbose="true"
->
-    <testsuites>
-        <testsuite name="SICAS Wrapper Library Test Suite">
-            <directory>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" bootstrap="vendor/autoload.php" beStrictAboutOutputDuringTests="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd" cacheDirectory=".phpunit.cache" requireCoverageMetadata="true" beStrictAboutCoverageMetadata="true">
+  <testsuites>
+    <testsuite name="SICAS Wrapper Library Test Suite">
+      <directory>
                 ./tests/
             </directory>
-        </testsuite>
-    </testsuites>
-
-    <php>
-        <env name="user" value="" force="true"></env>
-        <env name="password" value="" force="true"></env>
-    </php>
+    </testsuite>
+  </testsuites>
+  <php>
+    <env name="user" value="T3j0D3L6AD1ll0" force="true"/>
+    <env name="password" value="T3#J0%Del6A" force="true"/>
+  </php>
 </phpunit>

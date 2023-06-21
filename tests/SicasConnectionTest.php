@@ -13,5 +13,6 @@ final class SicasConnectionTest extends TestCase
         $this->sicas = new Sicas($_ENV['user'], $_ENV['password']);
         $sicasFunctions = $this->sicas->getFunctions();
         $this->assertNotEmpty($sicasFunctions);
+        $this->assertIsArray($sicasFunctions);
     }
 }
